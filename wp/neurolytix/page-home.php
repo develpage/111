@@ -29,7 +29,7 @@
 	<div class="nav-wrapper">
 		<div class="navigation">
 			<div class="logo">
-				<a href="#">Neuroliti<span>&bull;</span>x</a>
+				<a href="#">Neurolyti<span>&bull;</span>x</a>
 			</div>
 			<nav>
 				<ul>
@@ -51,44 +51,62 @@
 				</ul>
 			</nav>
 			<div class="btn-create">
-				<a href="#">
+				<a href="http://survey.neurolytix.ai/">
 					<span></span>Создать исследование</a>
 					<img src="<?php echo Q_IMG_DIR; ?>/buttons/menu_hover_button.svg" alt="" class="menu-btn-hover">
 			</div>
+		<!-- Mobile menu -->
 			<div class="mobile-menu">
 				<div class="mobile-menu-content">
-				<div class="language-choose">
-					<div class="language active-lang">RUS</div>
-					<div class="language-line"></div>
-					<div class="language">ENG</div>
-				</div>
-				<hr class="mobile-hr full-line">
-				<ul>
-					<li>
-						<a class="mobile-link" href="#service-anchor"><img class="mob-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/m-ico1.svg" alt=""> О сервисе</a>
-					</li>
-					<li>
-						<a class="mobile-link" href="#research-anchor"><img class="mob-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/m-ico-2.svg" alt=""> Исследования</a>
-					</li>
-					<li>
-						<a class="mobile-link" href="#work-anchor"><img class="mob-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/m-ico-3.svg" alt=""> Как работает</a>
-					</li>
-					<li>
-						<a class="mobile-link" href="#team-anchor"><img class="mob-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/m-ico-4.svg" alt=""> Команда</a>
-					</li>
-				</ul>
-				<div class="mobile-hr">
-				<div class="mobile-contacts">
+					<div class="language-choose">
+						<div class="language active-lang">RUS</div>
+						<div>
+							<div class="language-line"></div>
+						</div>
+						<div class="language">ENG</div>
+					</div>
+					<hr class="mobile-hr full-line">
 					<ul>
-						<li><a onclick="javascript:window.open('tel:+7-499-123-17-26', 'tel'); event.preventDefault()" href="tel:+7-499-123-17-26" class="mob-phone"><img class="mob-contcat-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/phone.svg" alt="">+7 499 123-17-26</a></li>
-						<li><a onclick="javascript:window.open('mailto:info@neurolitix.ru', 'mail');event.preventDefault()" href="mailto:info@neurolitix.ru" class="mob-mail"><img class="mob-contcat-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/mail.svg" alt=""> info@neurolitix.ru</a></li>
-						<li><img class="mob-contcat-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/adr.svg" alt=""><span class="mob-adr">Россия, Москва, Тверская-Ямская, 12</span></li>
+						<li>
+							<a class="mobile-link" href="#service-anchor">
+								<img class="mob-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/m-ico1.svg" alt=""> О сервисе</a>
+						</li>
+						<li>
+							<a class="mobile-link" href="#research-anchor">
+								<img class="mob-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/m-ico-2.svg" alt=""> Исследования</a>
+						</li>
+						<li>
+							<a class="mobile-link" href="#work-anchor">
+								<img class="mob-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/m-ico-3.svg" alt=""> Как работает</a>
+						</li>
+						<li>
+							<a class="mobile-link" href="#team-anchor">
+								<img class="mob-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/m-ico-4.svg" alt=""> Команда</a>
+						</li>
 					</ul>
+					<div class="mobile-hr">
+					</div>
+					<div class="mobile-contacts">
+						<ul>
+							<li>
+								<a onclick="javascript:window.open('tel:+7-499-123-17-26', 'tel'); event.preventDefault()" href="tel:+7-499-123-17-26"
+								 class="mob-phone">
+									<img class="mob-contcat-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/phone.svg" alt="">+7 499 123-17-26</a>
+							</li>
+							<li>
+								<a onclick="javascript:window.open('mailto:info@Neurolytix.ru', 'mail');event.preventDefault()" href="mailto:info@Neurolytix.ru"
+								 class="mob-mail">
+									<img class="mob-contcat-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/mail.svg" alt=""> info@Neurolytix.ru</a>
+							</li>
+							<li>
+								<img class="mob-contcat-ico" src="<?php echo Q_IMG_DIR; ?>/mobile_menu_icons/adr.svg" alt="">
+								<span class="mob-adr">Россия, Москва, Тверская-Ямская, 12</span>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-			
-		</div>
+
 			<div class="burger">
 				<span class="burger-item top"></span>
 				<span class="burger-item middle"></span>
@@ -288,7 +306,7 @@
 					</div>
 				</div>
 				<div class="btn-create-big">
-					<a href="#">
+					<a href="http://survey.neurolytix.ai/">
 						<span>Создать исследование</span>
 						<img class="btn-big" src="<?php echo Q_IMG_DIR; ?>/buttons/btn.svg" alt="">
 						<img class="about-btn-hover" src="<?php echo Q_IMG_DIR; ?>/buttons/about_btn_create_hover.svg" alt="">
@@ -313,7 +331,7 @@
 							</p>
 						</div>
 						<div class="discription wow fadeInUp" data-wow-delay="0.5s">
-							<h2>Neuroliti<span>&bull;</span>x</h2>
+							<h2>Neurolyti<span>&bull;</span>x</h2>
 							<p>– это автоматизированный сервис для проведения нейромаркетинговых исследований с многотысячной аудиторией респондентов
 								по всей России. Сервис для изучения потребителя и его реакций на ваш рекламный контент путем прямого измерения мозговых
 								процессов. Это позволяет определить истинное отношение человека к контенту исследования.
@@ -340,9 +358,9 @@
 			<h1 class="h1-white">Исследования</h1>
 			<div class="research-content">
 				<div class="research-discription">
-					<p>Платформа Neuroliti•x предназначена для тестирования любого мултимедийного контента</p>
-					<p>Не надейся на удачу, знай точно! Выпуская в свет новый продукт, рекламный ролик или бренд маркетолог должен заранее
-						проверить восприятие целевой аудиторией.
+					<p>Платформа Neurolyti•x предназначена для тестирования любого мултимедийного контента</p>
+					<p>Выпуская в свет новый продукт, рекламный ролик или бренд маркетолог должен заранее
+						проверить восприятие целевой аудиторией. Не надейтесь на удачу, знайте точно!
 					</p>
 				</div>
 				<div class="research-lists">
@@ -475,8 +493,8 @@
 				</div>
 			</div>
 			<div class="note">
-				<p>
-					<span></span> Исследования могут быть разработаны под индивидуальные нужды заказчика</p>
+				
+				<p><span></span> Исследования могут быть разработаны под индивидуальные нужды заказчика</p>
 			</div>
 
 		</div>
@@ -494,7 +512,7 @@
 				<div class="how-work">
 					<div class="how-work-content work-discription wow fadeInLeft">
 						<p>
-							Neuroliti•x делает нейроманкетинг доступным и понятным для каждого. Для этого достаточно зайти на сайт и в течение 10 минут
+							Neurolyti•x делает нейроманкетинг доступным и понятным для каждого. Для этого достаточно зайти на сайт и в течение 10 минут
 							запустить исследование.
 
 						</p>
@@ -502,7 +520,7 @@
 					<div class="how-work-content wow fadeInUp" data-wow-delay="0.1s">
 						<span>1 шаг</span>
 						<p>
-							Создание исследования и настройкацелевой аудитории на нашем сайте.
+							Создание исследования и настройка целевой аудитории на нашем сайте.
 						</p>
 					</div>
 					<div class="how-work-content wow fadeInUp" data-wow-delay="0.3s">
@@ -515,7 +533,7 @@
 					<div class="how-work-content wow fadeInUp" data-wow-delay="0.6s">
 						<span>3 шаг</span>
 						<p>
-							Уникальная технология neurolitix, основанная на фиксации идеомоторных действий, позволяет определять подсознательные механизмы
+							Уникальная технология Neurolytix, основанная на фиксации идеомоторных действий, позволяет определять подсознательные механизмы
 							респондентов.
 						</p>
 					</div>
@@ -538,7 +556,7 @@
 			<h1 class="h1-white">Технологии</h1>
 			<div class="technology-content-top">
 				<div class="technology-discription">
-					Будущее маркетинга – это нейромаркетинг. Технологии Neuroliti•x – это cинергия 3 наук:
+					Будущее маркетинга – это нейромаркетинг. Технологии Neurolyti•x – это cинергия 3 наук:
 				</div>
 				<div class="technology-neuro">
 					<div class="neuro-content">
@@ -570,7 +588,7 @@
 						влияния на него исследуемой рекламы по специальному алгоритму. </p>
 				</div>
 				<div>
-					<h3>Мобильное ЭЭГ</h3>
+					<h3>Мобильная ЭЭГ</h3>
 					<p>Это портативный усилитель биопотенциалов в виде нейрогарнитуры, которая размещается на голове обследуемого. При просмотре
 						респондентом рекламных материалов регистрируются биоэлектрическая активность головного мозга.
 						<br>
@@ -578,12 +596,9 @@
 						реагирования, связанного с предъявляемыми материалами.</p>
 				</div>
 				<div>
-					<h3>Вызванные потенциалы</h3>
-					<p>Веб-сервис, позволяющий проводить психологическое тестирование по показателям особенностей личности, а также регистрировать
-						особенности состояния респондента на момент обследования, такие как внимание, самоконтроль, скорость мышления и др.
-						<br>
-						<br> Сервис может быть полезен для сегментации аудитории по психологическим характеристикам, а также для организации специализированных
-						опросов маркетингового направления с учетом характеристик этих состояний.</p>
+					<h3>Психологическая сегментация</h3>
+					<p>Веб-сервис позволяет учитывать психологические характеристики аудитории с целью  организации специализированных 
+						опросов маркетингового направления с учетом этих характеристик.</p>
 				</div>
 			</div>
 			<!-- Advantage -->
@@ -641,15 +656,21 @@
 					<div class="team-member">
 						<img src="<?php echo Q_IMG_DIR; ?>/team/mol.png" alt="" class="ico-member wow fadeIn" data-wow-delay="0.2s">
 						<p class="name wow fadeInRight" data-wow-delay="0.1s">Александр Игумнов</p>
-						<p class="member-function wow fadeInUp" data-wow-delay="0.2s">Разаработка</p>
+						<p class="member-function wow fadeInUp" data-wow-delay="0.2s">Разработка</p>
 						<p class="function-discription wow fadeInUp" data-wow-delay="0.3s">Более 12 лет опыта работы в области разработки программного обеспечения, степень в области математики, основатель и
 							руководитель цифровой производственной компании.</p>
 					</div>
-					<div class="team-member">
+					<!--div class="team-member">
 						<img src="<?php echo Q_IMG_DIR; ?>/team/shturmovik-ico.png" alt="" class="ico-member wow fadeIn" data-wow-delay="0.2s">
 						<p class="name wow fadeInRight" data-wow-delay="0.2s">Анатолий Григорьев</p>
 						<p class="member-function wow fadeInUp" data-wow-delay="0.4s">Ментор</p>
 						<p class="function-discription wow fadeInUp" data-wow-delay="0.5s">Вице-президент Российской академии наук.</p>
+					</div-->
+					<div class="team-member">
+						<img src="<?php echo Q_IMG_DIR; ?>/team/shturmovik-ico.png" alt="" class="ico-member wow fadeIn" data-wow-delay="0.2s">
+						<p class="name wow fadeInRight" data-wow-delay="0.2s">Игорь Сенько</p>
+						<p class="member-function wow fadeInUp" data-wow-delay="0.4s">IT-инженерия</p>
+						<p class="function-discription wow fadeInUp" data-wow-delay="0.5s">Pазработка аппаратно-программных систем мониторинга и анализа  физиологических показателей, организация удаленных WEB сервисов.</p>
 					</div>
 					<div class="team-member">
 						<img src="<?php echo Q_IMG_DIR; ?>/team/grivus-png.png" alt="" class="ico-member wow fadeIn" data-wow-delay="0.2s">
@@ -663,15 +684,13 @@
 						<img src="<?php echo Q_IMG_DIR; ?>/team/c3p0.png" alt="" class="ico-member wow fadeIn" data-wow-delay="0.2s">
 						<p class="name wow fadeInRight" data-wow-delay="0.1s">Алексей Иванов</p>
 						<p class="member-function wow fadeInUp" data-wow-delay="0.2s">Научная работа</p>
-						<p class="function-discription wow fadeInUp" data-wow-delay="0.3s">Психофизиолог, кандидат медицинских наук по специальностям психофизиология, авиационная, космическая и морская медицина.
-							Руководил НИР по психологическому обследованию участников программы МАРС 500.</p>
+						<p class="function-discription wow fadeInUp" data-wow-delay="0.3s">Психофизиолог, к.м.н.  Многолетний опыт исследований и разработок в области психофизиологической диагностики и коррекции, изучению взаимодействия сознательных и неосознаваемых психических процессов.</p>
 					</div>
 					<div class="team-member">
 						<img src="<?php echo Q_IMG_DIR; ?>/team/r2d2-ico.png" alt="" class="ico-member wow fadeIn" data-wow-delay="0.2s">
 						<p class="name wow fadeInRight" data-wow-delay="0.2s">Сергей Квасовец</p>
 						<p class="member-function wow fadeInUp" data-wow-delay="0.4s">Научная работа</p>
-						<p class="function-discription wow fadeInUp" data-wow-delay="0.5s">Российский психолог, нейропсихолог. Руководил НИР, НИОКР по созданию инструментальных способов обеспечения психологической
-							подготовки спортсменов на Олимпиаде 2014.</p>
+						<p class="function-discription wow fadeInUp" data-wow-delay="0.5s">Российский психолог, нейропсихолог, к.пс.н.  Многолетний опыт создания  методов автоматизированной оценки и анализа психофизиологических показателей, системного анализа мозговых механизмов.</p>
 					</div>
 				</div>
 			</div>
@@ -694,7 +713,7 @@
 					</div>
 					<div class="mail-adr">
 						<img src="<?php echo Q_IMG_DIR; ?>/icons/mail.svg" alt="">
-						<a onclick="javascript:window.open('mailto:info@neurolitix.ru', 'mail');event.preventDefault()" href="mailto:info@neurolitix.ru"><span>info@neurolitix.ru</span></a> 
+						<a onclick="javascript:window.open('mailto:info@Neurolytix.ru', 'mail');event.preventDefault()" href="mailto:info@Neurolytix.ru"><span>info@neurolytix.ru</span></a> 
 					</div>
 					<div class="company-adr">
 						<img src="<?php echo Q_IMG_DIR; ?>/icons/adr.svg" alt="">
@@ -704,18 +723,19 @@
 				</div>
 
 				<form id="contact-form">
+					
 					<div class="form-wrapper">
 						<div class="text-form">
-							<textarea class="text-input input-border" placeholder="Введите текст сообщения"></textarea>
+							<textarea id="message" name="message" class="text-input input-border" placeholder="Введите текст сообщения"></textarea>
 						</div>
 						<div class="contacts-form">
 							<div class="input-block">
 								<label class="input-label" for="name">Имя</label>
-								<input id="name" class="input-border" type="text" required>
+								<input id="name" name="name" class="input-border" type="text" required>
 							</div>
 							<div class="input-block">
 								<label class="input-label" for="mail">Эл. почта</label>
-								<input id="mail" class="input-border" type="text" pattern="^[a-zA-Z\s]+$" required>
+								<input id="mail" name="mail" class="input-border" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
 							</div>
 							<button id="contact-btn" type="submit" form="contact-form">Отправить</button>
 						</div>
